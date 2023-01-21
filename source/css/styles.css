@@ -243,6 +243,20 @@ main p {
     align-content: space-around;
 }
 
+@media only screen and (min-width:300px) and (max-width: 639px) {
+
+    main p {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+
+    .content3 .card {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+
+
+}
 
 @media only screen and (min-width:300px) and (max-width: 639px) {
 
