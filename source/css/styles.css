@@ -242,9 +242,11 @@ main p {
 
 .content2 {
    
-    
-    display: flex;
-    align-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
 
 @media only screen and (min-width:300px) and (max-width: 639px) {
@@ -265,7 +267,7 @@ main p {
 @media only screen and (min-width:300px) and (max-width: 639px) {
 
     .content2 { 
-        flex-flow: column;
+        display: inline;
     }
 
 }
@@ -278,11 +280,13 @@ main p {
     
     
     
+    
 }
 
 .wo {
 
     padding: 1rem;
+    
 
    
    
