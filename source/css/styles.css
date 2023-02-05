@@ -23,6 +23,12 @@ header {
 
 }
 
+.card {
+    justify-items: center;
+    
+    
+    
+}
 
 
 @media only screen and (min-width:300px) and (max-width: 639px) {
@@ -304,12 +310,15 @@ main p {
 .content3 {
    padding-top: 4rem;
    
+   
+   
 }
 
 .content3 h3 {
     text-align: center;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    
 }
 
 
@@ -334,16 +343,24 @@ main p {
     margin: 0.3rem;
     font-size: 1.3rem;
     line-height: 2rem;
+    width: 224px;
+    box-shadow: 0 0 4px rgba(0, 8, 0, 0.2)  ; 
+    
+    
+    
 
 }
 
 
 .punktekaten { 
     display: inline-flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
+    justify-items: center;
+    align-content: center;
     flex-wrap: wrap;
     width: 100%;
+    
 
 }
 
