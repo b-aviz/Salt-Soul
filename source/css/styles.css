@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none !important;
 }
 
 html {
@@ -8,6 +9,7 @@ html {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #010000;
+  
     
    
 }
@@ -30,6 +32,55 @@ header {
     
 }
 
+
+.button {
+    background-color: #010000;
+    border: none;
+    color: #FFF5F8;
+    padding: 24px 44px;
+    text-align: center;
+    text-decoration: none !important;
+    display: block;
+    font-size: 20px;
+    width: 252px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    margin: 44px auto;
+    text-transform: uppercase;
+
+  }
+
+  .button:hover {
+    background-color: #3A3A3A;
+    border: none;
+    color: #FFF5F8;
+    padding: 24px 44px;
+    text-align: center;
+    text-decoration: none !important;
+    display: block;
+    font-size: 20px;
+    width: 252px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    margin: 44px auto;
+    text-transform: uppercase;
+   
+
+  }
+
+  .button:hover,
+.button:visited,
+.button:focus {
+  text-decoration: none !important;
+}
+
+.button:link,
+.button:visited,
+.button:hover,
+.button:focus,
+.button:active {
+  text-decoration: none !important;
+}
 
 @media only screen and (min-width:300px) and (max-width: 639px) {
     
